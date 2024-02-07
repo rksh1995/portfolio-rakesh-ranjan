@@ -32,7 +32,7 @@ body {
   color: rgb(67, 67, 245);
   font-weight: 700;
 }
-.navbar-toggle-btn {
+#navbar-toggle-btn {
   font-size: 28px;
   color: rgb(70, 70, 229);
 }
@@ -108,7 +108,21 @@ body {
   width: 300px;
   padding: 20px;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  background-color:rgb(43, 43, 244);
+  color: white;
 }
+.project-one {
+  width: 300px;
+  padding: 20px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  border-radius: 10px;
+  transition: transform 0.3s ease; /* Add transition property */
+}
+
+.project-one:hover {
+  transform: scale(1.05); /* Zoom in effect on hover */
+}
+
 .project-one-box {
   width: 300px;
   display: flex;
@@ -123,7 +137,7 @@ body {
 .project-descr {
   margin: -24px;
   font-size: 18px;
-  color: rgb(69, 69, 69);
+  color: rgb(237, 231, 231);
 }
 .project-one-box > .project-descr {
   width: 300px;
@@ -140,7 +154,7 @@ body {
   padding: 5px;
   font-size: 14px;
   font-weight: 600;
-  color: rgb(57, 56, 56);
+  color: rgb(190, 187, 187);
 }
 .project-link {
   display: flex;
@@ -149,7 +163,7 @@ body {
   gap: 10px;
 }
 .project-link a {
-  color: rgb(83, 80, 80);
+  color: rgb(205, 201, 201);
   font-size: 20px;
 }
 .skill-title {
@@ -192,4 +206,8 @@ body {
   text-decoration: none;
   color: rgb(81, 81, 253);
   font-weight: 500;
+}
+.dark-mode {
+  background-color: #333; /* Change to your preferred dark background color */
+  color: #fff; /* Change text color for better readability */
 }
